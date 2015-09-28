@@ -22,19 +22,19 @@ for i in range(21):
     sleep(.25)
 a.finish("Success")
 
-a = Animation("Waiting for the 3rd thing:", animation=ANIMATE_HGROW)
+a = Animation("Waiting for the 4th thing:", animation=ANIMATE_HGROW)
 for i in range(21):
     a.next()
     sleep(.25)
 a.finish("Success")
 
-a = Animation("Waiting for the 3rd thing:", animation=ANIMATE_COUNT)
+a = Animation("Waiting for the 5th thing:", animation=ANIMATE_COUNT)
 for i in range(21):
     a.next()
     sleep(.25)
 a.finish("Success")
 
-a = Animation("Waiting for the custom thing:", animation="|\\-/")
+a = Animation("Waiting for the 6th thing with custom:", animation="|\\-/")
 for i in range(21):
     a.next()
     sleep(.25)
